@@ -7,6 +7,6 @@ Name: mysql-chassis
 Version: @PACKAGE_VERSION_STRING@
 Description: the Chassis of the MySQL Proxy
 URL: http://forge.mysql.com/wiki/MySQL_Proxy
-Requires: glib-2.0 >= 2.16
+Requires: glib-2.0 >= 2.26
 Libs: -L${libdir} -lmysql-chassis -lmysql-chassis-timing -lmysql-chassis-glibext
 Cflags: -I${includedir} 
