@@ -28,12 +28,6 @@ INCLUDE(CheckIncludeFiles)
 INCLUDE(CheckFunctionExists)
 INCLUDE(CheckLibraryExists)
 INCLUDE(FindPkgConfig)
-INCLUDE(CheckTypeSize)
-INCLUDE(ChassisPlugin)
-INCLUDE(ChassisInstall)
-INCLUDE(CTest)
-INCLUDE(Tar)
-
 ENABLE_TESTING()
 
 set(CETUS_TOOLS_DIR ${PROJECT_SOURCE_DIR}/tools)
